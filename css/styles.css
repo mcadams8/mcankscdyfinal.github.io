@@ -8,6 +8,7 @@ html{
 }
 html,body{
     height:100vh;
+    margin: 0;
 }
 img{
     width:100%;
@@ -42,9 +43,10 @@ header{
 
 main{
     grid-row: 2;
-    background-image:url("../img/ChefBackgroundRS.jpg");
+    background-image:url("../img/chefcookingbackground.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
    
 }
 
