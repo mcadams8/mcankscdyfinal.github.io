@@ -12,3 +12,44 @@ html,body{
 img{
     width:100%;
 }
+body{
+    display:grid;
+    grid-template-rows:.25fr 2fr .25fr ;
+
+}
+header{
+    grid-row:1;
+    background-color: green;
+    
+}
+.headerContainer{
+    grid-row: 1;
+    display:grid;
+    grid-template-columns: .5fr .5fr;
+}
+.logoContainer{
+    grid-column:1;
+    
+}
+.logoContainer img{
+    width:10%;
+    height:10%;
+}
+.navContainer{
+    grid-column: 2;
+    background-color: lightslategray;
+}
+
+main{
+    grid-row: 2;
+    background-image:url("../img/ChefBackgroundRS.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+
+footer{
+    grid-row: 3;
+    background-color:green;
+}
