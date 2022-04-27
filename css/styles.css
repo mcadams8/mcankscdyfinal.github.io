@@ -60,28 +60,89 @@ footer{
 .meetchefsgrid {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    
     width: 100%;
 }
 .chefprofile {
     flex-basis: 300px;
     flex-grow: 1;
     max-width: 400px;
-    height: 70vh;
+    height: auto;
     border-radius: 4px;
     text-align: center;
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     background: pink;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    justify-items: center;
 }
 
-
-
-
+.headshot {
+    grid-row: 1/2;
+    width: 100%;
+    background: yellow;
+    display: grid;
+    justify-items: center;
+}
+.chefpic {
+    width: 70%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.chef1 {
+    background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
+}
+.chef2 {
+    background-image: url(../img/mohamed-nohassi-DdglEoIC2y4-unsplash.jpg);
+}
+.chef3 {
+    background-image: url(../img/febrian-zakaria-SiQgni-cqFg-unsplash.jpg);
+    background-position: center;
+}
+.chef4 {
+    background-image: url(../img/petr-sevcovic-e5Q5vWO55uU-unsplash.jpg);
+}
+.chef5 {
+    background-image: url(../img/bluebird-provisions-lRAWcT7uwhY-unsplash.jpg);
+}
+.chef6 {
+    background-image: url(../img/derrick-pare-okPdcD03F7g-unsplash.jpg);
+}
+.cheftext {
+    grid-row: 2/3;
+    width: 100%;
+    background: orangered;
+    display: grid;
+    align-items: center;
+}
+.chefdescription {
+    background: cornsilk;
+    font-size: 1rem;
+}
+/* .headshot {
+    box-sizing: border-box;
+    grid-row: 1/2;
+    width: 200px;
+    height: 100%;
+    margin: 50px;
+    /* background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: yellowgreen;
+    
+}
+.chefdescription {
+    box-sizing: border-box;
+    grid-row: 2;
+    /* align-self:center; */
+    background: yellow;
+    width: 100%;
+    /* padding: 2rem; */
+} */
 
 /* SMALL TABLET SIZE */
 @media screen and (min-width: 576px) {  
