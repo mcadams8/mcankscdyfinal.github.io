@@ -42,16 +42,58 @@ header{
 }
 
 main{
-    grid-row: 2;
+    grid-row: 2; 
+}
+
+.homebackground{
     background-image:url("../img/chefcookingbackground.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-   
 }
-
 
 footer{
     grid-row: 3;
     background-color:green;
+}
+
+.meetchefsgrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+.chefprofile {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    height: 70vh;
+    border-radius: 4px;
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    background: pink;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+
+
+
+/* SMALL TABLET SIZE */
+@media screen and (min-width: 576px) {  
+
+}
+
+/* LARGE TABLET SIZE */
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOP SIZE */
+@media screen and (min-width: 992px) { 
+
 }
