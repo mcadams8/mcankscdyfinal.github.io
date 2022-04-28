@@ -57,11 +57,23 @@ footer{
     background-color:green;
 }
 
+.meetchefstitle {
+    text-align: center;
+    background: lightblue;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    padding-bottom: 0;
+    
+}
+
 .meetchefsgrid {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    box-sizing: border-box;   
+    background: yellow; 
 }
 .chefprofile {
     flex-basis: 300px;
@@ -69,10 +81,12 @@ footer{
     max-width: 400px;
     height: auto;
     border-radius: 4px;
+    /* border-color: navy;
+    border-style: solid; */
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1rem;
-    background: pink;
+    /* background: pink; */
     display: grid;
     grid-template-rows: 3fr 1fr;
     justify-items: center;
@@ -81,16 +95,18 @@ footer{
 .headshot {
     grid-row: 1/2;
     width: 100%;
-    background: yellow;
+    /* background: yellow; */
     display: grid;
     justify-items: center;
 }
 .chefpic {
-    width: 70%;
+    width: 80%;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 20px;
+    margin-bottom: 0;
+    border-radius: 50%;
 }
 .chef1 {
     background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
@@ -114,12 +130,12 @@ footer{
 .cheftext {
     grid-row: 2/3;
     width: 100%;
-    background: orangered;
+    /* background: orangered; */
     display: grid;
     align-items: center;
 }
 .chefdescription {
-    background: cornsilk;
+    /* background: cornsilk; */
     font-size: 1rem;
 }
 /* .headshot {
