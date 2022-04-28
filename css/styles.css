@@ -105,6 +105,10 @@ footer{
     background-color:green;
 }
 
+.footerContainer {
+    text-align: center;
+}
+
 .meetchefstitle {
     text-align: center;
     background: lightblue;
