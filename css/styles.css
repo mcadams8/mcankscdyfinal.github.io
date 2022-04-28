@@ -215,8 +215,90 @@ footer{
 } */
 
 .reservationsgrid {
+    display: grid;
+    height: 100%;
     width: 100%;
-    display: grid; 
+    grid-template-rows: 1fr 5fr;
+}
+ 
+.reservationstitle {
+    grid-row: 2/3;
+    background: yellow;
+    margin: 0;
+    padding: 20px;
+}
+.resform {
+    background: purple;
+    display: grid;
+}
+form {
+    box-sizing: border-box;
+    padding: 1em;
+    background: #e3e3e3;
+    max-width: 100%;
+    margin: 0 8%;
+    border: 1px solid #c5c5c5;
+}
+fieldset {
+    /* margin-bottom: 30px; */
+    border: none;
+  }
+ 
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    margin: 15px 0px;
+    font-family: ;
+    font-size: 0.9em;
+    background: rgb(255, 255, 255);
+    color: #ff6a00;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.043) inset;
+}
+ 
+textarea {
+    height: 3rem;
+    resize: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+}
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+.meal {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size:1.1em;
+}
+input[type="radio"] {
+    margin: 0 10px 8px 0;
+}
+ 
+.edate {
+    display: block;
+    margin-top: 10px;
+}
+.rad {
+    font-size: .9em;
+}
+ 
+input::placeholder,
+textarea::placeholder {
+    color: hsla(320, 100%, 51%, 0.484);
+}
+ 
+/* .reservationsgrid {
+    width: 100%;
+    display: grid;
     grid-template-rows: 1fr 5fr;
 }
 .reservationstitle {
@@ -229,9 +311,9 @@ footer{
     background: rgb(131, 131, 220);
     display: grid;
 }
-
+ 
 form {
-    max-width: 100%;
+    width: 80%;
     margin: 20px;
     padding: 1em;
     background: #d4d3d3;
@@ -241,8 +323,8 @@ form {
     margin: 0 0 30px 0;
     text-align: center;
   }
-  
-  /* input[type="text"],
+ 
+  input[type="text"],
   input[type="password"],
   input[type="date"],
   input[type="datetime"],
@@ -251,8 +333,7 @@ form {
   input[type="search"],
   input[type="tel"],
   input[type="time"],
-  input[type="url"], */
-  input,
+  input[type="url"],
   textarea,
   select {
     box-sizing: border-box;
@@ -272,35 +353,41 @@ form {
     caret-size: 5px;
     transition: all 350ms;
   }
-  
+ 
+  textarea {
+      resize: none;
+  }
   input::placeholder,
   textarea::placeholder {
     color: hsla(9, 100%, 64%, 0.6);
   }
-  
+ 
   input:hover,
   input:focus,
   textarea:hover,
   textarea:focus {
     border: 2px solid hsla(9, 100%, 64%, 0.6);
   }
-  
+ 
   label:required {
     color: yellow;
   }
-  
+ 
   input[type="radio"],
   input[type="checkbox"] {
-    margin: 0 4px 8px 0;
+    margin: 0 10px 10px 0;
     background: hsla(9, 100%, 64%, 0.6);
   }
-  
+  .dinmarg {
+      margin-top: 30px;
+  }
+ 
   select {
     padding: 6px;
     height: 32px;
     border-radius: 2px;
   }
-  
+ 
   button {
     padding: 19px 39px 18px 39px;
     color: #fff;
@@ -314,33 +401,33 @@ form {
     margin-bottom: 10px;
     transition: all 350ms;
   }
-  
+ 
   button:hover,
   button:focus {
     background-color: hsla(9, 100%, 64%, 0.8);
     color: black;
   }
-  
+ 
   fieldset {
     margin-bottom: 30px;
     border: none;
   }
-  
+ 
   legend {
     font-size: 1.4em;
     margin-bottom: 10px;
   }
-  
+ 
   label {
     display: block;
     margin-bottom: 8px;
   }
-  
+ 
   label.light {
     font-weight: 300;
     display: inline;
   }
-  
+ 
   .number {
     background-color: #5fcf80;
     color: #fff;
@@ -353,7 +440,8 @@ form {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     border-radius: 100%;
-  }
+  } */
+
   
 /*TABLET SIZE */
 @media screen and (min-width: 480px) {  

@@ -29,45 +29,38 @@
       <h2 class="reservationstitle">RESERVE A CHEF</h2>
       <div class="resform">
         <form action="/" method="get">
-          <h1>Register</h1>
-        
           <fieldset>
-            <legend>Basic Info</legend>
-        
-            <label for="name">First Name</label>
-            <input type="text" id="name" name="first_name" placeholder="John" value="" required>
-            <label for="name">Last Name</label>
-            <input type="text" id="name" name="last_name" placeholder="Richards" value="" required>
+            <legend> Personal Info</legend>
+            <label for="fname" class="blk">First Name</label>
+            <input type="text" id="fname" name="first_name" placeholder="John" value="" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" placeholder="Richards" value="" required>
             <label for="email">Email</label>
-        
             <input type="email" id="email" name="user_email" placeholder="jrich@email.com" value="" required>
-        
             <label for="phone"> Phone number</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="919-296-4738">
-            
           </fieldset>
-        
           <fieldset>
             <legend>Event Booking</legend>
-            
-            <label>Meal</label>
+            <p class="meal">Meal</p>
             <input type="radio" id="breakfast" value="breakfast" name="mealtime">
-            <label for="breakfast" class="light">Breakfast</label>
+            <label for="breakfast" class="light rad">Breakfast</label> <br>
             <input type="radio" id="brunch" value="brunch" name="mealtime">
-            <label for="brunch" class="light">Brunch</label>
+            <label for="brunch" class="light rad">Brunch</label> <br>
             <input type="radio" id="lunch" value="lunch" name="mealtime">
-            <label for="lunch" class="light">Lunch</label>
+            <label for="lunch" class="light rad">Lunch</label> <br>
             <input type="radio" id="dinner" value="dinner" name="mealtime">
-            <label for="dinner" class="light">Dinner</label>
-  
-            <label for="eventdate">Event date</label>
+            <label for="dinner" class="light rad">Dinner</label>
+
+            <label for="eventdate" class="edate">Event date</label>
             <input type="date" id="eventdate" name="eventdate">
-            <label for="bio">Bio Sketch</label>
-            <textarea id="bio" name="user_bio" placeholder="what do you want us to know?"></textarea>
-        
+            
+            <label for="details">Special Requests</label>
+            <textarea id="details" name="added_details" placeholder="what do you want us to know?"></textarea>
+            
             <label for="chefname">Chef</label>
             <select id="chefname" name="chef_name">
-              <optgroup label="Private Chef">
+              <!-- <optgroup label="Private Chef"> -->
                 <option value="" selected disabled hidden>Select a chef</option>
                 <option value="unc_ch">UNC-Chapel Hill</option>
                 <option value="duke">Duke University</option>
@@ -75,13 +68,10 @@
                 <option value="nc_state">NC State</option>
                 <option value="nc_state">NC State</option>
                 <option value="nc_state">NC State</option>
-              </optgroup>
+              <!-- </optgroup> -->
             </select>
-                  
           </fieldset>
-        
-          <button type="submit">Submit</button>
-        
+          <button type="submit">SUBMIT</button>
         </form>
       </div>
     </main>
