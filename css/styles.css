@@ -25,9 +25,10 @@ header{
     grid-row:1;
     background-color: green;
     text-align:center;
-    position:fixed;
+    position:absolute;
     width:100%;
     z-index:100;
+   
 }
 /*Checkbox visibility*/
 .toggler{
@@ -98,6 +99,7 @@ main{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    
 }
 
 footer{
