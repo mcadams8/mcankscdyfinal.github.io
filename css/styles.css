@@ -259,10 +259,18 @@ select {
     background: rgb(255, 255, 255);
     color: #ff6a00;
     border: 1px solid transparent;
+    outline: none;
     border-radius: 3px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.043) inset;
 }
- 
+input:hover,
+input:focus,
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus {
+  box-shadow: 0 0 0 2px #ff1cd9dc;
+}
 textarea {
     height: 3rem;
     resize: none;
@@ -281,7 +289,11 @@ legend {
 input[type="radio"] {
     margin: 0 10px 8px 0;
 }
- 
+input[type="radio"]:hover,
+input[type="radio"]:focus {
+    box-shadow: none;
+}
+
 .edate {
     display: block;
     margin-top: 10px;
@@ -294,7 +306,33 @@ input::placeholder,
 textarea::placeholder {
     color: hsla(320, 100%, 51%, 0.484);
 }
+
+select {
+    padding: 10px;
+    /* height: 32px; */
+    /* border-radius: 2px; */
+}
  
+button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: hsla(9, 100%, 64%, 1);
+    font-size: 1em;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 360ms;
+}
+
+button:hover,
+button:focus {
+    background-color: hsl(317, 96%, 55%);
+    color: rgb(0, 0, 0);
+}
+
 #gallery{
     line-height: 0;
     column-count: 1;
