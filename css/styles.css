@@ -8,6 +8,7 @@ html{
     font-family: "Montserrat", sans-serif;
 
 }
+
 html,body{
     height:100vh;
     margin: 0;
@@ -99,7 +100,6 @@ main{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    
 }
 
 footer{
