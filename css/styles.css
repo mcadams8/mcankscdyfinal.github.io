@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 html{
     box-sizing:border-box;
     margin:0;
@@ -18,27 +20,73 @@ body{
     grid-template-rows:.25fr 2fr .25fr ;
 
 }
+/* Header/ NavStyling Start*/
 header{
     grid-row:1;
     background-color: green;
-    
+    text-align:center;
+    position:fixed;
+    width:100%;
+    z-index:100;
 }
-.headerContainer{
-    grid-row: 1;
-    display:grid;
-    grid-template-columns: .5fr .5fr;
+/*Checkbox visibility*/
+.toggler{
+    display: none;
 }
-.logoContainer{
-    grid-column:1;
-    
+/*Logo sizing and position*/
+.logo{
+    display:flex;
+    height:40px;
+    width:40px;
+    margin-left:16px;
 }
-.logoContainer img{
+/*sidebar Nav Menu slide out STYLING when clicking on hamburger*/
+nav ul{
+    position:fixed;
     width:10%;
-    height:10%;
+    height:15vh;
+    padding:25px;
+    background:gray;
+    right: -100%;
+    transition: all .5s;
+    list-style: none;
+
 }
-.navContainer{
-    grid-column: 2;
-    background-color: lightslategray;
+/*spacing in between the links*/
+nav li {
+    margin-bottom:12px;
+   
+}
+/*Changing the color of the Nav Items */
+nav a{
+    font-style:;
+    color:white;
+    text-decoration:none;
+    text-shadow: 2px 2px 4px rgba(31, 31, 31, .658);
+    text-transform:;
+}
+/*Styling for hover and focus*/
+nav a:hover,
+nav a:focus{
+    color: rgb(91, 180, 253);
+    transition: ease-in .1s;
+}
+/* Brings in the Right Menu when Hamburger is Clicked*/
+.toggler:checked ~ nav ul{
+    right:0;
+}
+/*Hamburger Styling and Location*/
+.burger{
+    position:absolute;
+    font-size:35px;
+    color:white;
+    text-shadow:2px 2px 4px rgba(31, 31, 31, .658);
+    top:0;
+    right:0;
+    margin-right: 16px;
+    height: 100%;
+    display:flex;
+    align-items: center;
 }
 
 main{
@@ -301,17 +349,46 @@ form {
     border-radius: 100%;
   }
   
-/* SMALL TABLET SIZE */
-@media screen and (min-width: 576px) {  
+/*TABLET SIZE */
+@media screen and (min-width: 480px) {  
 
 }
 
-/* LARGE TABLET SIZE */
+/* Small Screens and Laptop SIZE */
 @media screen and (min-width: 768px) {
+    .burger{
+        display:none;
+    }
+    header{
+        display:grid;
+        grid-template-columns: 1fr auto minmax(700px 3fr);
 
+    }
+    nav{
+        display:flex;
+        grid-column:3/4;
+        justify-content:flex-end;
+        align-items:center;
+
+    }
+    nav ul{
+        all: unset;
+        list-style:none;
+        display:flex;
+
+    }
+    nav li{
+        margin-right: 16px;
+        margin-bottom:0;
+    }
+    
 }
 
-/* DESKTOP SIZE */
-@media screen and (min-width: 992px) { 
+/* DESKTOP/ LARGE SCREEN SIZE */
+@media screen and (min-width: 1024px) { 
+
+}
+/* EXTRA LARGE SCREEN SIZE */
+@media screen and (min-width: 1200px) { 
 
 }
