@@ -43,7 +43,7 @@ header{
 /*sidebar Nav Menu slide out STYLING when clicking on hamburger*/
 nav ul{
     position:fixed;
-    width:10%;
+    width:20%;
     height:15vh;
     padding:25px;
     background:gray;
