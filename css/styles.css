@@ -295,6 +295,16 @@ textarea::placeholder {
     color: hsla(320, 100%, 51%, 0.484);
 }
  
+#gallery{
+    line-height: 0;
+    column-count: 1;
+    column-gap:5px;
+}
+#gallery img{
+    width:100% !important;
+    height: auto !important;
+    margin-bottom:5px;
+}
 /* .reservationsgrid {
     width: 100%;
     display: grid;
@@ -444,6 +454,9 @@ form {
   
 /*TABLET SIZE */
 @media screen and (min-width: 480px) {  
+    #gallery{
+        column-count:2;
+    }
 
 }
 
@@ -474,14 +487,23 @@ form {
         margin-right: 16px;
         margin-bottom:0;
     }
+    #gallery{
+        column-count:3;
+    }
     
 }
 
 /* DESKTOP/ LARGE SCREEN SIZE */
 @media screen and (min-width: 1024px) { 
+    #gallery{
+        column-count:4;
+    }
 
 }
 /* EXTRA LARGE SCREEN SIZE */
 @media screen and (min-width: 1200px) { 
+    #gallery{
+        column-count:5;
+    }
 
 }
