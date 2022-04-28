@@ -224,7 +224,6 @@ footer{
 .reservationstitle {
     grid-row: 2/3;
     background: yellow;
-    margin: 0;
     padding: 20px;
 }
 .resform {
