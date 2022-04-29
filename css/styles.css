@@ -21,6 +21,10 @@ header{
     background-color:green;
     
 }
+h2{
+    font-weight:600;
+
+}
 .headerContainer{
     text-align:center;
     position:relative;
