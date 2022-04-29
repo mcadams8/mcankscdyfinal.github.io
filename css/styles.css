@@ -37,9 +37,7 @@ h3{
 .culinary {
     max-width:300px;
     color: white;
-    position:absolute;
-    right: 100px;
-    top:10%;
+    align-self: flex-end;
     text-align: right;
 }
 
@@ -146,11 +144,11 @@ main{
 #homeWords{
     color:white;
     font-family:"Montserrat Alternates";
-    position:relative;
-    padding-top: 17px;
+    
     text-shadow:2px 2px 4px rgba(31, 31, 31, .658);
     font-size: 16px;
-    text-align: center;
+    text-align: left;
+    align-self: center;
 }
 
 .homebutton {
@@ -158,11 +156,11 @@ main{
     padding: 20px 50px 20px;
     background-color:azure;
     color: black;
-    font-weight:700;
+    font-weight:600;
     text-decoration: none;
     text-align: center;
-
-
+    width: 200px;
+    align-self: center;
 }
 
 .homebutton:hover {
@@ -172,15 +170,13 @@ main{
 .home-header {
     grid-row: 1/2;
     background-image: url(/img/chefplatingbackground.jpg);
+    padding: 10%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10em;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    position: relative;
+    row-gap: 50px;
 }
 
 .homebackground{
