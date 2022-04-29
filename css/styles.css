@@ -19,7 +19,7 @@ img{
 
 /* Header/ NavStyling Start*/
 header{
-    background-color:green;
+    background-color:black;
 }
 h2{
     font-weight:600;
@@ -41,6 +41,8 @@ h3{
     padding:0;
 }
 .headerContainer{
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align:center;
     position:relative;
     width:100%;
@@ -213,12 +215,15 @@ main{
 .home-footer {
     grid-row: 3/4;
     text-align: center;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
 footer{
     grid-row: 3/4;
-    background-color:green;
+    background-color:black;
+    color: white;
+    font-family: "Montserrat Alternates";
+    padding-top: 14px;
 }
 
 .footerContainer {
