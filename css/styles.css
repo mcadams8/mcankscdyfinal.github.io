@@ -147,8 +147,7 @@ main{
     color:white;
     font-family:"Montserrat Alternates";
     position:relative;
-    bottom: 10%;
-    padding-top: 20px;
+    padding-top: 17px;
     text-shadow:2px 2px 4px rgba(31, 31, 31, .658);
     font-size: 16px;
     text-align: center;
@@ -163,7 +162,7 @@ main{
     text-decoration: none;
     text-align: center;
     position:relative;
-    top:10%;
+    top:60%;
 
 }
 
