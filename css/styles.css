@@ -61,7 +61,8 @@ nav li {
 }
 /*Changing the color of the Nav Items */
 nav a{
-    font-style:;
+    font-family: "Montserrat Alternates";
+    font-weight:500;
     color:white;
     text-decoration:none;
     text-shadow: 2px 2px 4px rgba(31, 31, 31, .658);
@@ -71,6 +72,7 @@ nav a{
 nav a:hover,
 nav a:focus{
     color: rgb(91, 180, 253);
+    font-weight:700;
     transition: ease-in .1s;
 }
 /* Brings in the Right Menu when Hamburger is Clicked*/
@@ -722,11 +724,17 @@ form {
         all: unset;
         list-style:none;
         display:flex;
+        position:relative;
+        bottom:25px;
 
     }
     nav li{
         margin-right: 16px;
         margin-bottom:0;
+        align-items:flex-start;
+    }
+    .svgContainer{
+        width:fit-content;
     }
     #gallery{
         column-count:3;
