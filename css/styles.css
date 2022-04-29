@@ -40,12 +40,10 @@ h3{
     margin:0;
     padding:0;
 }
-
 .headerContainer{
-    padding-top: 1%;
-    padding-bottom: 1%;
     text-align:center;
     position:relative;
+    width:100%;
     
 }
 /*Checkbox visibility*/
@@ -215,15 +213,12 @@ main{
 .home-footer {
     grid-row: 3/4;
     text-align: center;
-    padding-top: 14px;
+    padding-top: 13px;
 }
 
 footer{
     grid-row: 3/4;
-    background-color:black;
-    color: white;
-    font-family: "Montserrat Alternates";
-    padding-top: 14px;
+    background-color:green;
 }
 
 .footerContainer {
@@ -450,7 +445,7 @@ button:focus {
     line-height: 0;
     column-count: 1;
     column-gap:5px;
-   
+    padding-top:10%;
 }
 #gallery img{
     width:100% !important;
