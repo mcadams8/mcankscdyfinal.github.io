@@ -805,7 +805,7 @@ form {
     }
     
     .servicesgrid {
-        grid-template-rows: 2fr 4fr 4fr 4fr 0.5fr 3fr;
+        grid-template-rows: 3fr 5fr 5fr 5fr 0.5fr 4fr;
         grid-template-columns: 1fr 1fr;
     }
     .servicestitlerow {
@@ -894,7 +894,7 @@ form {
         column-count:4;
     }
     .servicesgrid {
-        grid-template-rows: 2fr 5fr 5fr 5fr 1fr 4fr;
+        grid-template-rows: 3fr 6fr 6fr 6fr 1fr 4fr;
         grid-template-columns: 1fr 1fr;
     }
     .pricetitle, .prctext {
@@ -939,6 +939,7 @@ form {
         padding-right:35%;
        
     }
+   
 }
 @media screen and (min-width: 1200px) { 
     #gallery{
