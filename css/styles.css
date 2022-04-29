@@ -195,10 +195,6 @@ main{
     text-align: center;
 }
 
-.rating {
-
-}
-
 .reviews-container {
     display: flex;
     flex-direction: column;
@@ -215,11 +211,13 @@ main{
     flex-direction: column;
     padding: 3%;
     border-radius: 8px;
+    font-size: smaller;
 }
 
 .home-footer {
     grid-row: 3/4;
     text-align: center;
+    font-weight: 500;
     padding-top: 13px;
 }
 
@@ -232,6 +230,8 @@ footer{
 .footerContainer {
     text-align: center;
     font-weight: 500;
+    padding-top: 13px;
+    grid-row: 3/4;
 }
 
 .meetchefstitle {
@@ -326,9 +326,9 @@ footer{
 
 .reservationsgrid {
     display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-rows: 30px, 1fr, auto, 1fr;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 1fr, auto, 1fr;
 }
 
 .reservationstitle {
@@ -341,6 +341,7 @@ footer{
 .resform {
     background: purple;
     display: grid;
+    grid-row: 2/3;
 }
 form {
     box-sizing: border-box;
@@ -350,6 +351,9 @@ form {
     margin: 0 8%;
     border: 1px solid #c5c5c5;
 }
+
+
+
 fieldset {
     /* margin-bottom: 30px; */
     border: none;
