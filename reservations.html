@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-      <div class="headerContainer" >
+      <div class="headerContainer" role="banner">
         <i class="fa-solid fa-kitchen-set logo"></i>
         <input id="toggler" class="toggler" type="checkbox"></input>
         <label for="toggler" class="burger">
           <span> <i class="fas fa-bars"></i> </span>
         </label>
-        <nav>
+        <nav role="navigation">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="meetTheChef.html">Meet The Chefs</a></li>
@@ -31,25 +31,25 @@
     </header>
 
     <main>
-      <h2 class="reservationstitle">RESERVE A CHEF</h2>
-      <div class="form-container">
+      <h2 class="reservationstitle" role="heading">RESERVE A CHEF</h2>
+      <div class="form-container" role="form" aria-label="Contact information and event booking">
         <form action="/" method="get" class="reservationsgrid">
           <div class="personal">
           <fieldset>
-            <legend> Personal Info</legend>
+            <legend> Contact information</legend>
             <label for="fname" class="blk">First Name</label>
-            <input type="text" id="fname" name="first_name" placeholder="First name" value="" required>
+            <input type="text" id="fname" name="first_name" placeholder="First name" aria-lable="First name" value="" required>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" placeholder="Last name" value="" required>
+            <input type="text" id="lname" name="last_name" placeholder="Last name" aria-label="Last name" value="" required>
             <label for="email">Email</label>
-            <input type="email" id="email" name="user_email" placeholder="you@email.com" value="" required>
+            <input type="email" id="email" name="user_email" placeholder="you@email.com" aria-label="you@email.com" value="" required>
             <label for="phone"> Phone number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="9191260005">
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="9191260005" aria-label="example 9191260005">
           </fieldset>
         </div>
         <div class="event">
           <fieldset>
-            <legend>Event Booking</legend>
+            <legend>Event Details</legend>
             <p class="meal">Meal</p>
             <input type="radio" id="breakfast" value="breakfast" name="mealtime">
             <label for="breakfast" class="light rad">Breakfast</label> <br>
@@ -64,7 +64,7 @@
             <input type="date" id="eventdate" name="eventdate">
             
             <label for="details">Special Requests</label>
-            <textarea id="details" name="added_details" placeholder="Are there any dietary restrictions or other requests for your event?"></textarea>
+            <textarea id="details" name="added_details" placeholder="Are there any dietary restrictions or other requests for your event?" aria-label="Are there any dietary restrictions or other requests for your event?"></textarea>
             
             <label for="chefname">Chef</label>
             <select id="chefname" name="chef_name">
