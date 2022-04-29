@@ -18,13 +18,12 @@ img{
 
 /* Header/ NavStyling Start*/
 header{
-    
     background-color:green;
     
 }
 .headerContainer{
     text-align:center;
-    
+    position:relative;
     width:100%;
     
 }
@@ -193,9 +192,11 @@ footer{
     text-align: center;
     background: lightblue;
     font-size: 2rem;
+    font-weight: 600;
     padding: 1rem;
     padding-bottom: 0;
     margin-bottom:0;
+    margin-top:0;
 }
 
 .meetchefsgrid {
