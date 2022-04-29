@@ -30,10 +30,12 @@
       </div>
     </header>
 
-    <main class="reservationsgrid">
+    <main>
       <h2 class="reservationstitle">RESERVE A CHEF</h2>
-      <div class="resform">
-        <form action="/" method="get">
+      <!-- <div class="resform"> -->
+      <div>
+        <form action="/" method="get" class="reservationsgrid">
+          <div class="personal">
           <fieldset>
             <legend> Personal Info</legend>
             <label for="fname" class="blk">First Name</label>
@@ -45,6 +47,8 @@
             <label for="phone"> Phone number</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="9191260005">
           </fieldset>
+        </div>
+        <div class="event">
           <fieldset>
             <legend>Event Booking</legend>
             <p class="meal">Meal</p>
@@ -76,7 +80,9 @@
               <!-- </optgroup> -->
             </select>
           </fieldset>
-          <button type="submit">SUBMIT</button>
+        </div>
+        <button type="submit">SUBMIT</button>
+    
         </form>
       </div>
       <footer>
@@ -87,6 +93,5 @@
         </div>
       </footer>
     </main>
-    
 </body>
 </html>

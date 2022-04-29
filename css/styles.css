@@ -161,8 +161,7 @@ main{
     font-weight:700;
     text-decoration: none;
     text-align: center;
-    position:relative;
-    top:60%;
+
 
 }
 
@@ -332,8 +331,6 @@ footer{
 }
 
 .reservationstitle {
-    grid-row: 1/2;
-    background: yellow;
     padding: 20px;
     margin: 0;
     
@@ -343,22 +340,28 @@ footer{
     display: grid;
     grid-row: 2/3;
 }
-form {
+/* form {
     box-sizing: border-box;
     padding: 1em;
     background: #e3e3e3;
     max-width: 100%;
     margin: 0 8%;
     border: 1px solid #c5c5c5;
+} */
+
+.personal {
+    b
 }
 
-
+.event {
+    bac
+}
 
 fieldset {
     /* margin-bottom: 30px; */
     border: none;
   }
- 
+
 input[type="text"],
 input[type="date"],
 input[type="email"],
@@ -881,6 +884,31 @@ form {
     .prctext {
         margin-bottom: 30px;
     }
+
+    .reservationsgrid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+    }
+
+    .personal {
+        grid-column: 1/2;
+    }
+
+    .event {
+        grid-column: 2/3;
+        padding-top: 4px;
+    }
+
+    button {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        width: 95%;
+    }
+
+
+
 }
 
 @media screen and (min-width:902px){
@@ -925,7 +953,7 @@ form {
 
 }
 /* EXTRA LARGE SCREEN SIZE */
-@media screen and (min-width:1120px){
+/* @media screen and (min-width:1120px){
     #home-title {
         color: white;
         text-align: center;
@@ -945,14 +973,14 @@ form {
         bottom:30%;
         padding-right:35%;
        
-    }
+    } */
    
 }
 @media screen and (min-width: 1200px) { 
     #gallery{
         column-count:5;
     }
-    #home-title {
+    /* #home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -974,5 +1002,5 @@ form {
         bottom:30%;
         padding-right:40%;
        
-    }
+    } */
 }
