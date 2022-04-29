@@ -11,6 +11,7 @@ html{
 html,body{
     margin: 0;
     height:100vh;
+   
 }
 img{
     width:100%;
@@ -19,11 +20,25 @@ img{
 /* Header/ NavStyling Start*/
 header{
     background-color:green;
-    
 }
 h2{
     font-weight:600;
+    margin:0;
 
+}
+h1{
+    font-weight:700;
+}
+h3{
+    margin:0;
+    padding:0;
+}
+
+}
+.gpChefContainer{
+    color:white;
+    margin:0;
+    padding:0;
 }
 .headerContainer{
     text-align:center;
@@ -42,6 +57,7 @@ h2{
     width:40px;
     margin-left:16px;
     color: white;
+    
 }
 /*sidebar Nav Menu slide out STYLING when clicking on hamburger*/
 nav ul{
@@ -116,7 +132,19 @@ main{
 #home-title {
     color: white;
     text-align: center;
-    text-decoration: ;
+    position:relative;
+    left:60%;
+    bottom:20%;
+    padding-right:25%;
+   
+}
+#homeWords{
+    color:white;
+    font-family:"Montserrat Alternates";
+    position:relative;
+    bottom:10%;
+    padding:5%;
+    text-shadow:2px 2px 4px rgba(31, 31, 31, .658);
 }
 
 .homebutton {
@@ -124,8 +152,12 @@ main{
     padding: 20px 50px 20px;
     background-color:azure;
     color: black;
+    font-weight:700;
     text-decoration: none;
     text-align: center;
+    position:relative;
+    top:10%;
+
 }
 
 .homebutton:hover {
@@ -707,6 +739,7 @@ form {
     #gallery{
         column-count:2;
     }
+<<<<<<< Updated upstream
     .servicesgrid {
         grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 0.2fr 1.5fr;
     }
@@ -717,6 +750,18 @@ form {
     .prctext {
         margin-bottom: 20px;
     }
+=======
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:20%;
+        padding-right:25%;
+       
+    }
+    
+>>>>>>> Stashed changes
 }
 
 /* Small Screens and Laptop SIZE */
@@ -749,11 +794,18 @@ form {
         margin-bottom:0;
         align-items:flex-start;
     }
-    .svgContainer{
-        width:fit-content;
-    }
+   
     #gallery{
         column-count:3;
+    }
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:20%;
+        padding-right:25%;
+       
     }
     
     .servicesgrid {
@@ -828,11 +880,24 @@ form {
     }
 }
 
+@media screen and (min-width:902px){
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:25%;
+       
+    }
+}
 /* DESKTOP/ LARGE SCREEN SIZE */
+
 @media screen and (min-width: 1024px) { 
     #gallery{
         column-count:4;
     }
+<<<<<<< Updated upstream
     .servicesgrid {
         grid-template-rows: 2fr 5fr 5fr 5fr 1fr 4fr;
         grid-template-columns: 1fr 1fr;
@@ -845,11 +910,68 @@ form {
     .prctext {
         margin-bottom: 30px;
     }
+=======
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:25%;
+       
+    }
+    
+
+>>>>>>> Stashed changes
 }
 /* EXTRA LARGE SCREEN SIZE */
+@media screen and (min-width:1120px){
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:35%;
+       
+    }
+}
+@media screen and (min-wdith:1170px){
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:35%;
+       
+    }
+}
 @media screen and (min-width: 1200px) { 
     #gallery{
         column-count:5;
     }
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:35%;
+       
+    }
 
+    
+
+}
+@media screen and (min-width:1400px){
+    #home-title {
+        color: white;
+        text-align: center;
+        position:relative;
+        left:50%;
+        bottom:30%;
+        padding-right:40%;
+       
+    }
 }
