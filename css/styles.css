@@ -195,19 +195,7 @@ footer{
     /* background: cornsilk; */
     font-size: 1rem;
 }
-/* .headshot {
-    box-sizing: border-box;
-    grid-row: 1/2;
-    width: 200px;
-    height: 100%;
-    margin: 50px;
-    /* background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* background: yellowgreen;
-    
-} */
+
 .chefdescription {
     box-sizing: border-box;
     grid-row: 2;
@@ -505,7 +493,138 @@ form {
     border-radius: 100%;
   } */
 
-  
+/* SERVICES PAGE STYLING START */
+.servicesgrid {
+    /* width: 100%;
+    height: 100%; */
+    background: paleturquoise;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 0.5fr 1fr;
+    justify-items: center;
+}
+
+.servicestitlerow {
+    grid-row: 1/2;
+    background:hsla(9, 100%, 64%, 1);
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url(../img/servicestitleimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.servtitle {
+    padding: 1em;
+}
+.prep {
+    grid-row: 2/3;
+    background:rgb(71, 255, 99);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+}
+.foodprepimg {
+    width:80%;
+    height: auto;
+    background-image: url(../img/foodprep.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.preptxt {
+    grid-row: 3/4;
+    background:goldenrod;
+    width: 100%;
+    height: 100%;
+
+}
+.prptext {
+    /* grid-row: 1/2; */
+    text-align: left;
+    padding-left: 10%;
+    width: 80%;
+    background:rgb(227, 255, 71);
+    margin: 15px 0px;
+}
+.mnevent {
+    grid-row: 4/5;
+    background:rgb(71, 255, 99);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+}
+.mneventtxt {
+    grid-row: 5/6;
+    background:rgb(227, 255, 71);
+    width: 100%;
+    height: 100%;
+}
+.finedinimg {
+    width:80%;
+    height: auto;
+    background-image: url(../img/finedining.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.cleanup {
+    grid-row: 6/7;
+    background:rgb(71, 255, 95);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+}
+.cleanuptxt {
+    grid-row: 7/8;
+    background:rgb(227, 255, 71);
+    width: 100%;
+    height: 100%;
+}
+.utensilsimg {
+    width:80%;
+    height: auto;
+    background-image: url(../img/metalutensils.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.pricing {
+    grid-row: 8/9;
+    background: pink;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.pricetxt {
+    grid-row: 9/10;
+    background: magenta;
+    width: 100%;
+    
+}
+.prctext {
+    text-align: center;
+    padding-left: 10%;
+    width: 80%;
+    background:rgb(227, 255, 71);
+    margin: 15px 0px;
+
+}
+
+/* SERVICES PAGE STYLING END */
+
+
 /*TABLET SIZE */
 @media screen and (min-width: 480px) {  
     #gallery{
