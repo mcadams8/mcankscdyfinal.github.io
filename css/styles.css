@@ -146,9 +146,10 @@ main{
     color:white;
     font-family:"Montserrat Alternates";
     position:relative;
-    bottom:10%;
-    padding:5%;
+    bottom: 10%;
+    padding-top: 20px;
     text-shadow:2px 2px 4px rgba(31, 31, 31, .658);
+    font-size: smaller;
 }
 
 .homebutton {
@@ -753,15 +754,11 @@ form {
     .prctext {
         margin-bottom: 20px;
     }
-    #home-title {
+    /* #home-title {
         color: white;
         text-align: center;
-        position:relative;
-        left:50%;
-        bottom:20%;
-        padding-right:25%;
-       
-    }
+        top: 40%;
+    } */
     
 }
 
