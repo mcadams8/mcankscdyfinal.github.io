@@ -218,7 +218,8 @@ main{
 
 footer{
     grid-row: 3/4;
-    background-color:green;
+    background-color: black;
+    color: white;
 }
 
 .footerContainer {
@@ -228,7 +229,6 @@ footer{
 
 .meetchefstitle {
     text-align: center;
-    background: lightblue;
     font-size: 2rem;
     font-weight: 600;
     padding: 1rem;
@@ -243,7 +243,6 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;   
-    background: yellow; 
 }
 .chefprofile {
     flex-basis: 300px;
@@ -312,8 +311,8 @@ footer{
 .chefdescription {
     box-sizing: border-box;
     grid-row: 2;
-    /* align-self:center; */
-    background: yellow;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 12px 12px 2px 1px rgba(154, 192, 90, 0.658);
     width: 100%;
     /* padding: 2rem; */
 } */
