@@ -739,7 +739,6 @@ form {
     #gallery{
         column-count:2;
     }
-<<<<<<< Updated upstream
     .servicesgrid {
         grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 0.2fr 1.5fr;
     }
@@ -750,7 +749,6 @@ form {
     .prctext {
         margin-bottom: 20px;
     }
-=======
     #home-title {
         color: white;
         text-align: center;
@@ -761,7 +759,6 @@ form {
        
     }
     
->>>>>>> Stashed changes
 }
 
 /* Small Screens and Laptop SIZE */
@@ -897,7 +894,6 @@ form {
     #gallery{
         column-count:4;
     }
-<<<<<<< Updated upstream
     .servicesgrid {
         grid-template-rows: 2fr 5fr 5fr 5fr 1fr 4fr;
         grid-template-columns: 1fr 1fr;
@@ -910,7 +906,6 @@ form {
     .prctext {
         margin-bottom: 30px;
     }
-=======
     #home-title {
         color: white;
         text-align: center;
@@ -922,7 +917,6 @@ form {
     }
     
 
->>>>>>> Stashed changes
 }
 /* EXTRA LARGE SCREEN SIZE */
 @media screen and (min-width:1120px){
