@@ -611,7 +611,6 @@ form {
 
 .servicestitlerow {
     grid-row: 1/2;
-    background:hsla(9, 100%, 64%, 1);
     width: 100%;
     display: grid;
     justify-items: center;
