@@ -325,7 +325,6 @@ footer{
     box-sizing: border-box;
     grid-row: 2;
     border-radius: 8px;
-
     width: 100%;
     /* padding: 2rem; */
 } */
@@ -462,6 +461,12 @@ button:focus {
     height: auto !important;
     margin-bottom:5px;
     
+}
+
+.gallery-title {
+    text-align: center;
+    font-weight: 100;
+    padding: 30px;
 }
 
 
