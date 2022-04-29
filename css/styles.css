@@ -18,11 +18,10 @@ img{
 body{
     display:grid;
     grid-template-rows:.25fr 2fr .2fr ;
-
 }
 /* Header/ NavStyling Start*/
 header{
-    grid-row:1/2;
+    
     background-color:green;
     
 }
@@ -31,7 +30,6 @@ header{
     position:absolute;
     width:100%;
     background-color:green;
-    height:auto;
 }
 /*Checkbox visibility*/
 .toggler{
@@ -107,12 +105,20 @@ main{
     color: orange;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-rows: 1fr, auto, 1fr;
+}
+
+#home-title {
+    color: white;
+    text-align: center;
+    text-decoration: ;
+}
+
 .homebutton {
     border-radius: 10px;
-    padding: 3%;
-    width: 200px;
-    height: 25px;
-    align-self: center;
+    padding: 20px 50px 20px;
     background-color:azure;
     color: black;
     text-decoration: none;
@@ -123,11 +129,21 @@ main{
     background-color: rgb(197, 215, 215);
 }
 
-.homebackground{
-    background-image:url("../img/chefcookingbackground.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+.home-header {
+    grid-row: 1/2;
+    background-image: url(/img/chefplatingbackground.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homebackground{
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,8 +175,14 @@ main{
     border-radius: 8px;
 }
 
+.home-footer {
+    grid-row: 3/4;
+    text-align: center;
+    padding-top: 13px;
+}
+
 footer{
-    grid-row: 3;
+    grid-row: 3/4;
     background-color:green;
 }
 
