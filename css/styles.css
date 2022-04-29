@@ -247,6 +247,7 @@ footer{
     padding-bottom: 0;
     margin-bottom:0;
     margin-top:0;
+    color: #ff6a00;
 }
 
 .meetchefsgrid {
@@ -323,8 +324,8 @@ footer{
 .chefdescription {
     box-sizing: border-box;
     grid-row: 2;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 12px 12px 2px 1px rgba(154, 192, 90, 0.658);
+    border-radius: 8px;
+
     width: 100%;
     /* padding: 2rem; */
 } */
