@@ -33,54 +33,54 @@
 
     <main>
       <h2 class="reservationstitle" role="heading">RESERVE A CHEF</h2>
-      <div class="form-container" role="form" aria-label="Contact information and event booking">
+      <div class="form" role="form" aria-label="Contact information and event booking">
         <form action="/" method="get" class="reservationsgrid">
-          <div class="personal">
-          <fieldset>
-            <legend> Contact information</legend>
-            <label for="fname" class="blk">First Name</label>
-            <input type="text" id="fname" name="first_name" placeholder="John" aria-lable="First name" value="" required>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" placeholder="Richards" aria-label="Last name" value="" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="user_email" placeholder="you@email.com" aria-label="you@email.com" value="" required>
-            <label for="phone"> Phone number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="919-126-0005" aria-label="example 9191260005">
-          </fieldset>
-        </div>
-        <div class="event">
-          <fieldset>
-            <legend>Event Details</legend>
-            <p class="meal">Meal</p>
-            <input type="radio" id="breakfast" value="breakfast" name="mealtime">
-            <label for="breakfast" class="light rad">Breakfast</label> <br>
-            <input type="radio" id="brunch" value="brunch" name="mealtime">
-            <label for="brunch" class="light rad">Brunch</label> <br>
-            <input type="radio" id="lunch" value="lunch" name="mealtime">
-            <label for="lunch" class="light rad">Lunch</label> <br>
-            <input type="radio" id="dinner" value="dinner" name="mealtime">
-            <label for="dinner" class="light rad">Dinner</label>
+            <div class="personal">
+            <fieldset>
+              <legend> Contact information</legend>
+              <label for="fname" class="blk">First Name</label>
+              <input type="text" id="fname" name="first_name" placeholder="John" aria-lable="First name" value="" required>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="last_name" placeholder="Richards" aria-label="Last name" value="" required>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="user_email" placeholder="you@email.com" aria-label="you@email.com" value="" required>
+              <label for="phone"> Phone number</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="919-126-0005" aria-label="example 9191260005">
+            </fieldset>
+          </div>
+          <div class="event">
+            <fieldset>
+              <legend>Event Details</legend>
+              <p class="meal">Meal</p>
+              <input type="radio" id="breakfast" value="breakfast" name="mealtime">
+              <label for="breakfast" class="light rad">Breakfast</label> <br>
+              <input type="radio" id="brunch" value="brunch" name="mealtime">
+              <label for="brunch" class="light rad">Brunch</label> <br>
+              <input type="radio" id="lunch" value="lunch" name="mealtime">
+              <label for="lunch" class="light rad">Lunch</label> <br>
+              <input type="radio" id="dinner" value="dinner" name="mealtime">
+              <label for="dinner" class="light rad">Dinner</label>
 
-            <label for="eventdate" class="edate">Event date</label>
-            <input type="date" id="eventdate" name="eventdate">
-            
-            <label for="details">Special Requests</label>
-            <textarea id="details" name="added_details" placeholder="Are there any dietary restrictions or other requests for your event?" aria-label="Are there any dietary restrictions or other requests for your event?"></textarea>
-            
-            <label for="chefname">Chef</label>
-            <select id="chefname" name="chef_name">
-              <!-- <optgroup label="Private Chef"> -->
-                <option value="" selected disabled hidden>Select a chef</option>
-                <option value="unc_ch">Charlotte Russo</option>
-                <option value="duke">Pascual Torres</option>
-                <option value="nc_state">Febrian Zakaria</option>
-                <option value="nc_state">Peter Sevkovic</option>
-                <option value="nc_state">Brandon Roux</option>
-                <option value="nc_state">Derrick Odhiambo</option>
-              <!-- </optgroup> -->
-            </select>
-          </fieldset>
-        </div>
+              <label for="eventdate" class="edate">Event date</label>
+              <input type="date" id="eventdate" name="eventdate">
+              
+              <label for="details">Special Requests</label>
+              <textarea id="details" name="added_details" placeholder="Are there any dietary restrictions or other requests for your event?" aria-label="Are there any dietary restrictions or other requests for your event?"></textarea>
+              
+              <label for="chefname">Chef</label>
+              <select id="chefname" name="chef_name">
+                <!-- <optgroup label="Private Chef"> -->
+                  <option value="" selected disabled hidden>Select a chef</option>
+                  <option value="unc_ch">Charlotte Russo</option>
+                  <option value="duke">Pascual Torres</option>
+                  <option value="nc_state">Febrian Zakaria</option>
+                  <option value="nc_state">Peter Sevkovic</option>
+                  <option value="nc_state">Brandon Roux</option>
+                  <option value="nc_state">Derrick Odhiambo</option>
+                <!-- </optgroup> -->
+              </select>
+            </fieldset>
+          </div>
         <button type="submit">SUBMIT</button>
     
         </form>

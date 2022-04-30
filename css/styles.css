@@ -356,21 +356,26 @@ footer{
 .reservationsgrid {
     display: grid;
     width: 100%;
-    grid-template-rows: 30px 1fr auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    
 }
-
+.personal{
+    grid-row:1/2;
+}
+.event{
+    grid-row:2/3;
+}
 .reservationstitle {
-    grid-row: 1/2;
     padding: 30px;
     margin: 0;
     color: #ff6a00;
     
 }
 
-form {
+form{
     box-sizing: border-box;
     max-width: 100%;
-    margin: 0 5%;
+    margin: 0;
     border: 1px solid black;
     padding: 2%;
     margin-bottom: 20px;
@@ -466,6 +471,7 @@ button {
     margin-bottom: 10px;
     transition: all 360ms;
     box-shadow: 1px 2px 2px 1px #00000033;
+    grid-row:3/4;
 }
 
 button:hover,
@@ -774,12 +780,28 @@ button:focus {
         margin-bottom: 30px;
     }
 
-    form {
+    form{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 100px;
+        margin:0;
     }
-
+    
+    .reservationsgrid {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 1fr 100px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .personal{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    .event{
+        grid-column:2/3;
+        grid-row:1/2;
+    }
+   
     button {
         grid-column: 2/3;
         height: 50px;
