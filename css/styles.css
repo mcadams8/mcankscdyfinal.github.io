@@ -146,6 +146,9 @@ main{
     display: grid;
     grid-template-rows: 1fr, auto, 1fr;
 }
+.title{
+    color:white;
+}
 
 #home-title {
     color: white;
