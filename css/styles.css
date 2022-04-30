@@ -139,7 +139,7 @@ main{
 
 .home-grid {
     display: grid;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .title{
     color:white;
