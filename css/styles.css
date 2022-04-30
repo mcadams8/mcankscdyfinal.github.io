@@ -380,10 +380,10 @@ select {
     font-size: 0.9em;
     background: rgb(255, 255, 255);
     color: #ff6a00;
-    border: 1px solid transparent;
-    outline: none;
+    border: 2px solid transparent;
+    outline: 0;
     border-radius: 3px;
-    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.098) inset;
 }
 input:hover,
 input:focus,
@@ -391,8 +391,8 @@ select:hover,
 select:focus,
 textarea:hover,
 textarea:focus {
-    box-shadow: 0 0 5px #ff6a00;
-    border: 1px solid black;
+    box-shadow: 0 0 3px 0px #ff6a00;
+    border: 1px solid #ff6a00;
 }
 textarea {
     height: 3rem;
@@ -454,7 +454,9 @@ button {
 
 button:hover,
 button:focus {
-    background-color: rgb(215, 81, 57);
+    background-color: rgb(255, 255, 255);
+    color: #ff6a00;
+    border: 2px solid #ff6a00;
     cursor: pointer;
 }
 
