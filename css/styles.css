@@ -148,6 +148,8 @@ main{
 }
 .title{
     color:white;
+    display:flex;
+    margin-left:16px;
 }
 
 #home-title {
