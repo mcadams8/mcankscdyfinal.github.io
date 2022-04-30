@@ -307,23 +307,23 @@ footer{
     border: 2px solid #ff6a00;
 }
 .chef1 {
-    background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
+    background-image: url("../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg");
 }
 .chef2 {
-    background-image: url(../img/mohamed-nohassi-DdglEoIC2y4-unsplash.jpg);
+    background-image: url("../img/mohamed-nohassi-DdglEoIC2y4-unsplash.jpg");
 }
 .chef3 {
-    background-image: url(../img/febrian-zakaria-SiQgni-cqFg-unsplash.jpg);
+    background-image: url("../img/febrian-zakaria-SiQgni-cqFg-unsplash.jpg");
     background-position: center;
 }
 .chef4 {
-    background-image: url(../img/petr-sevcovic-e5Q5vWO55uU-unsplash.jpg);
+    background-image: url("../img/petr-sevcovic-e5Q5vWO55uU-unsplash.jpg");
 }
 .chef5 {
-    background-image: url(../img/bluebird-provisions-lRAWcT7uwhY-unsplash.jpg);
+    background-image: url("../img/bluebird-provisions-lRAWcT7uwhY-unsplash.jpg");
 }
 .chef6 {
-    background-image: url(../img/derrick-pare-okPdcD03F7g-unsplash.jpg);
+    background-image: url("../img/derrick-pare-okPdcD03F7g-unsplash.jpg");
 }
 .cheftext {
     grid-row: 2/3;
@@ -504,7 +504,7 @@ button:focus {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-image: url(../img/servicestitleimg.jpg);
+    background-image: url("../img/servicestitleimg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -524,7 +524,7 @@ button:focus {
 .foodprepimg {
     width:80%;
     height: auto;
-    background-image: url(../img/foodprep.jpg);
+    background-image: url("../img/foodprep.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -562,7 +562,7 @@ button:focus {
 .finedinimg {
     width:80%;
     height: auto;
-    background-image: url(../img/finedining.jpg);
+    background-image: url("../img/finedining.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -585,7 +585,7 @@ button:focus {
 .utensilsimg {
     width:80%;
     height: auto;
-    background-image: url(../img/metalutensils.jpg);
+    background-image: url("../img/metalutensils.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
