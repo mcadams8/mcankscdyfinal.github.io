@@ -227,6 +227,7 @@ main{
     grid-row: 3/4;
     text-align: center;
     padding-top: 13px;
+    padding-bottom: 10px;
 }
 
 footer{
@@ -238,6 +239,8 @@ footer{
 .footerContainer {
     text-align: center;
     font-weight: 500;
+    padding-top: 13px;
+    padding-bottom: 10px;
 }
 
 .meetchefstitle {
