@@ -261,7 +261,8 @@ footer{
     padding-bottom: 0;
     margin-bottom:0;
     margin-top:0;
-    color: #ff6a00;
+    /* color: #ff6a00; */
+    color: black;
 }
 
 .meetchefsgrid {
@@ -303,6 +304,7 @@ footer{
     margin: 20px;
     margin-bottom: 0;
     border-radius: 50%;
+    border: 2px solid #ff6a00;
 }
 .chef1 {
     background-image: url(../img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg);
