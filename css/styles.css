@@ -68,11 +68,11 @@ nav ul{
     position:fixed;
     width:20%;
     height:25vh;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:15px;
+    padding-bottom:34px;
     padding-left:25px;
     padding-right:30px;
-    background:gray;
+    background:black;
     right: -100%;
     transition: all .5s;
     list-style: none;
