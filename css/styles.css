@@ -40,7 +40,7 @@ h3{
     padding:0;
 }
 
-}
+
 .gpChefContainer{
     color:white;
     margin:0;
@@ -349,6 +349,7 @@ footer{
     grid-row: 2;
     border-radius: 8px;
     width: 100%;
+    font-family:"montserrat alternates";
     /* padding: 2rem; */
 } */
 
