@@ -41,11 +41,12 @@ h3{
 }
 
 
-.gpChefContainer{
+/*.gpChefContainer{
     color:white;
     margin:0;
     padding:0;
 }
+*/
 .headerContainer{
     text-align:center;
     position:relative;
@@ -149,7 +150,7 @@ main{
     margin-right:5.44px;
 }
 
-#home-title {
+/*#home-title {
     color: white;
     text-align: center;
     position:relative;
@@ -158,6 +159,7 @@ main{
     padding-right:25%;
    
 }
+*/
 #homeWords{
     color:white;
     font-family:"Montserrat Alternates";
@@ -209,12 +211,13 @@ main{
 }
 
 
-.homebackground{
+/*.homebackground{
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+*/
 
 #reviewsTitle {
     text-align: center;
@@ -339,10 +342,11 @@ footer{
     display: grid;
     align-items: center;
 }
-.chefdescription {
-    /* background: cornsilk; */
-    font-size: 1rem;
-}
+/* .chefdescription {
+    /* background: cornsilk; */ 
+    
+
+
 
 .chefdescription {
     box-sizing: border-box;
@@ -350,6 +354,7 @@ footer{
     border-radius: 8px;
     width: 100%;
     font-family:"montserrat alternates";
+    font-size: 1rem;
     /* padding: 2rem; */
 } 
 
@@ -656,7 +661,7 @@ button:focus {
     .prctext {
         margin-bottom: 20px;
     }
-    #home-title {
+    /*#home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -665,6 +670,7 @@ button:focus {
         padding-right:25%;
        
     }
+    */
     
 }
 
@@ -702,7 +708,7 @@ button:focus {
     #gallery{
         column-count:3;
     }
-    #home-title {
+   /* #home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -711,6 +717,7 @@ button:focus {
         padding-right:25%;
        
     }
+    */
     
     .servicesgrid {
         grid-template-rows: 2.5fr 5fr 5fr 5fr 0.5fr 3fr;
@@ -821,7 +828,7 @@ button:focus {
 
 
 @media screen and (min-width:902px){
-    #home-title {
+    /*#home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -830,6 +837,7 @@ button:focus {
         padding-right:25%;
        
     }
+    */
 }
 /* DESKTOP/ LARGE SCREEN SIZE */
 
@@ -849,7 +857,7 @@ button:focus {
     .prctext {
         margin-bottom: 30px;
     }
-    #home-title {
+    /*#home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -858,12 +866,12 @@ button:focus {
         padding-right:25%;
        
     }
-    
+    */
 
 }
 /* EXTRA LARGE SCREEN SIZE */
 @media screen and (min-width:1120px){
-    #home-title {
+    /*#home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -872,9 +880,10 @@ button:focus {
         padding-right:35%;
        
     }
+    */
 }
 @media screen and (min-wdith:1170px){
-    #home-title {
+    /*#home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -883,12 +892,13 @@ button:focus {
         padding-right:35%;
        
     }
+    */
 }
 @media screen and (min-width: 1200px) { 
     #gallery{
         column-count:5;
     }
-    #home-title {
+   /* #home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -897,12 +907,13 @@ button:focus {
         padding-right:35%;
        
     }
+    */
 
     
 
 }
 @media screen and (min-width:1400px){
-    #home-title {
+   /* #home-title {
         color: white;
         text-align: center;
         position:relative;
@@ -911,4 +922,5 @@ button:focus {
         padding-right:40%;
        
     }
+    */
 }
