@@ -673,12 +673,11 @@ button:focus {
     }
     header{
         display:grid;
-        grid-template-columns: 1fr auto minmax(700px 3fr);
-
+      
     }
     nav{
         display:flex;
-        grid-column:3/4;
+        
         justify-content:flex-end;
         align-items:center;
         position:relative;
@@ -784,7 +783,7 @@ button:focus {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 100px;
-        margin:0;
+        padding:5%;
     }
     
     .reservationsgrid {
@@ -792,6 +791,7 @@ button:focus {
         width: 100%;
         grid-template-rows: 1fr 100px;
         grid-template-columns: 1fr 1fr;
+
     }
     .personal{
         grid-column:1/2;
@@ -806,6 +806,8 @@ button:focus {
         grid-column: 2/3;
         height: 50px;
         width: 300px;
+        position:relative;
+        bottom:70%;
         align-self: center;
         justify-self: center;
         
