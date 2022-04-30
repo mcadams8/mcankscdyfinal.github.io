@@ -169,18 +169,23 @@ main{
 .homebutton {
     border-radius: 10px;
     padding: 20px 50px 20px;
-    background-color:azure;
-    color: black;
+    /* background-color: azure; */
+    background-color:#ff6a00;
+    /* color: rgb(0, 0, 0); */
+    color: white;
     font-weight:600;
     text-decoration: none;
     text-align: center;
     width: 200px;
     align-self: center;
+    transition: all 350ms;
 
 }
 
-.homebutton:hover {
-    background-color: rgb(197, 215, 215);
+.homebutton:hover,
+.homebutton:focus {
+    /* background-color: rgb(197, 215, 215); */
+    background-color: #c05000;
 }
 
 .home-header {
