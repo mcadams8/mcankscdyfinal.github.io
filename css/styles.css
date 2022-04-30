@@ -95,7 +95,7 @@ nav a{
 /*Styling for hover and focus*/
 nav a:hover,
 nav a:focus{
-    color: rgb(91, 180, 253);
+    color: #ff6a00;
     font-weight:700;
     transition: ease-in .1s;
 }
@@ -103,6 +103,11 @@ nav a:focus{
 .toggler:checked ~ nav ul{
     right:0;
 }
+
+a.active {
+    color: #ff6a00;
+}
+
 /*Hamburger Styling and Location*/
 .burger{
     position:absolute;
