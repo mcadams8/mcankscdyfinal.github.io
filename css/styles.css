@@ -190,7 +190,7 @@ main{
 
 .home-header {
     grid-row: 1/2;
-    background-image: url(../img/chefplatingbackground.jpg);
+    background-image: url("../img/chefplatingbackground.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
